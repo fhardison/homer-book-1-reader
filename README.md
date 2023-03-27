@@ -1,6 +1,6 @@
 # Iliad book 1
 
-A reader for Book of the Iliad with [Alpheios Reading tools]()
+A reader for Book of the Iliad with [Alpheios Reading tools](https://alpheios.net/pages/tutorials/)
 
 
 Text from [Homeric vocabulary tools](https://github.com/fhardison/homeric-vocabulary-tools)
