@@ -7,6 +7,9 @@ Text from [Homeric vocabulary tools](https://github.com/fhardison/homeric-vocabu
 
 lexical data from [lexica-tools](https://github.com/fhardison/lexica-tools)
 
+
+Idea for color coding words to facilitate reading taken from [Vincet Carrier](https://vcar.dev/)'s exelent tool [pyrrho](https://github.com/Vincent-Carrier/pyrrho) (a wonderful reader)
+
 # License
 
 - Text: [CC By-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/us/) license.

@@ -1,25 +1,3 @@
-
-
-@page {
-  size: 5.5in  8.5in;
-  margin: 3rem 3rem;
-  @top-center {
-    color: gray;
-    font-variant: small-caps;
-  }
-
-}
-
-@page {
-
-  @footnote {
-    border-top: solid black 1px;
-    float: bottom;
-    font-family: 'Garamond';
-  }
-  counter-reset: footnote;
-}
-
 .line > ul {
 	display: inline-block;
 	list-style-type: none;
@@ -32,57 +10,13 @@
 
 .line {
 
-	margin-top:1em;
-	margin-bottom:1em;
+	margin-top:0.5em;
+	margin-bottom:0.5em;
+	font-size:0.8em;
 
 }
-.fn {
-  float: footnote;
-  font-family: "Garamond";
-  font-size: 0.75em;
-  footnote-display: inline;
-  line-height:1;
-}
-
-
-
-.fn::after {
-  content: '.  ';
-}
-::footnote-call {
-  content: counter(footnote);
-  font-size: 0.65em;
-  vertical-align: super;
-  line-height: inherit;
-  font-variant-position: super;
-}
-
-::footnote-marker {
-  content: '('  counter(footnote)  ') ';
-  font-family: "Garamond";
-  font-weight: bold;
-  font-style: normal;
-}
-
-
-@page :left {
-  @bottom-left { content: counter(page) }
-  @top-left { content: string(heading); font-variant: small-caps }
-}
-
-@page :right {
-
-  @top-right { content: string(heading); font-variant: small-caps }
-  @bottom-right { content: counter(page) }
-}
-
-@page heading {
-  @top-left {content: none}
-  @top-right {content: none}
-  @bottom-left {content: none}
-  @bottom-right {content: none}
-}
-
+.word {margin-bottom: 0.25em;}
+.line-num {height: 100%; vertical-align:top;}
 
 #controls {
 	position: fixed;
@@ -111,63 +45,14 @@
 html {
   margin: 0 0;
   height: 100%;
-  padding: 0;
+  padding: 2em 10%;
 /*  line-height: 1.25; */
   word-break: break-all;
+  margin: 0 auto;
 }
-
-main {
-  max-width: 38rem;
-
-  margin: auto;
-}
-
 * {
   box-sizing: border-box;
 }
-
-.coverpage, .lastpage {
-  padding: 0;
-  margin: 0;
-  height: 100%;
-  width: auto;
-  page: clean;
-}
-
-.title {
-  text-align: center;
-  margin-top: 25%;
-  margin-left: 20%; 
-  margin-right: 20%;
-  height:auto;
-  padding-top: 5%;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-bottom: 5%;
-  border: 3px solid;
-  background-color: rgba(255,255,255, .8);
-  
-}
-
-.author {
-  font-size: 2em;
-
-  font-weight: normal;
-}
-.booktitle {
-  font-size: 4em;
-  /* font-family: "Hubot Sans"; */
-
-
-  font-weight: bold;
-}
-.lastpage {
-  page-break-before: always;
-}
-.coverpage {
-  page-break-after: always;
-}
-
 
 
 body {
@@ -186,15 +71,4 @@ h3 {
   /* string-set: heading content(); */
   font-size: 1.25rem;
 }
-p, li, ul {
 
-  font-size: 0.75em;
-}
-
-ol {
-  margin-left: -2em;
-}
-
-
-
-/*# sourceMappingURL=style.css.map */
