@@ -13,6 +13,7 @@ Idea for color coding words to facilitate reading taken from [Vincet Carrier](ht
 # License
 
 - Text: [CC By-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/us/) license.
+- Text for the diglot weave taken from: [Homerica by Gregory Crane](https://github.com/gregorycrane/Homerica/tree/master) I assume it's under some kind of CC BY_SA)
 - Lexical data: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license
 
 In order to comply with the above sources, this is licensed under which ever CC-By-SA license covers them both. I assume that is CC BY-SA 4.0. 
