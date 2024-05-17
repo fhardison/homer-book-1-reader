@@ -72,3 +72,8 @@ h3 {
   font-size: 1.25rem;
 }
 
+
+.hidden { visibility: hidden; display: none }
+.visible { visibility: visible; display: inline;}
+.hebrew {text-align: right;}
+.greek {text-align: left;}
